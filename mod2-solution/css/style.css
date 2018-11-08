@@ -6,7 +6,8 @@ h1{
 #box{
 	border: 1px solid black;
 	width: 300px;
-	margin: 1px;
+	margin: 10px;
+  float: left;
 }
 
 #content{
@@ -16,14 +17,26 @@ h1{
 .p1{
 	background-color: #F08080;
 	border: 1px solid black;
+  float: right;
+  width: 60px;
+  font: bold;
 }
 
 .p2{
-	background-color: #B22222;	
+	background-color: #B22222;
+  border: 1px solid black;
+  float: right;
+  color: #FFFFFF;
+  width: 40px;
+  font: bold;
 }
 
 .p3{
 	background-color: #D2B48C;
+  border: 1px solid black;
+  float: right;
+  width: 60px;
+  font-style: bold;
 }
 
 /********** Large devices only **********/
